@@ -95,14 +95,16 @@ Haar Cascade FrontalFace Algorithm :
 * It is based on the HAAR WAVELET TECHNIQUE to ANALYZE PIXELS in the image INTO SQUARES by function.
 * It uses ML techniques to get degree of ACCURACY.
 * This uses "integral image" concepts to compute the "FEATURES" detected.
-* Haar Cascade use the ADABOOST LEARNING ALGORITHM which selects SMALL NUMBER OF IM PORTANT FEATURES FROM A LARGE SET to give an efficient result of classifiers.
+* Haar Cascade use the ADABOOST LEARNING ALGORITHM which selects SMALL NUMBER OF IM PORTANT FEATURES FROM A LARGE SET 
+to give an efficient result of classifiers.
 
 
 Fisherface Recognizer :
 
 * Fisherface algorithm extracts PRINCIPLE COMPONENTS that separates one individual from another.
 * So, an individual's features cant dominate another person's features.
-* Fisherface method will be applied to generate FEATURE VECTOR of facial image data used by the system and then to match vector of traits of training image with vector characteristic of test image using EUCLIDEAN DISTANCE FORMULA.
+* Fisherface method will be applied to generate FEATURE VECTOR of facial image data used by the system and then to 
+match vector of traits of training image with vector characteristic of test image using EUCLIDEAN DISTANCE FORMULA.
 
 
 
