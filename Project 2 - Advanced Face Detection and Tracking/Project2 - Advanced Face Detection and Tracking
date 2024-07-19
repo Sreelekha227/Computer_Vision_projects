@@ -1,10 +1,10 @@
 import cv2
 
-alg = r"Project 2 - Advanced Face Detection and Tracking\haarcascade_frontalface_default.xml"
+alg = r"haarcascade_frontalface_default.xml"
 
 haar_cascade = cv2.CascadeClassifier(alg)
-
-cam = cv2.VideoCapture(0)
+video_file = 'Sample video for face detection.mp4'
+cam = cv2.VideoCapture(video_file)
 
 while True:
     _,img = cam.read()
