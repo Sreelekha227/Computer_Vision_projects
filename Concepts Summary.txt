@@ -95,7 +95,7 @@ Haar Cascade FrontalFace Algorithm :
 * It is based on the HAAR WAVELET TECHNIQUE to ANALYZE PIXELS in the image INTO SQUARES by function.
 * It uses ML techniques to get degree of ACCURACY.
 * This uses "integral image" concepts to compute the "FEATURES" detected.
-* Haar Cascade use the ADABOOST LEARNING ALGORITHM which selects SMALL NUMBER OF IM PORTANT FEATURES FROM A LARGE SET 
+* Haar Cascade use the ADABOOST LEARNING ALGORITHM which selects SMALL NUMBER OF IMPORTANT FEATURES FROM A LARGE SET 
 to give an efficient result of classifiers.
 
 

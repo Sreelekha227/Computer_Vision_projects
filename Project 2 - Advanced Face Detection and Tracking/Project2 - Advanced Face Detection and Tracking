@@ -1,6 +1,6 @@
 import cv2
 
-alg = r"Computer_Vision_projects\Project 2 - Advanced Face Detection and Tracking\haarcascade_frontalface_default.xml"
+alg = r"Project 2 - Advanced Face Detection and Tracking\haarcascade_frontalface_default.xml"
 
 haar_cascade = cv2.CascadeClassifier(alg)
 
