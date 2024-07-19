@@ -4,7 +4,10 @@ import cv2
 redLower = (58, 95, 80)
 redUpper = (147, 255, 255)
 
-camera=cv2.VideoCapture(0)
+video_file = 'Input video sample.mp4'
+camera = cv2.VideoCapture(video_file)
+
+
 
 while True:
 
