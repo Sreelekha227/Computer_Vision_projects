@@ -1,116 +1,109 @@
-# Computer_Vision_projects
+# Computer Vision projects
 #L1
 
-**Summary**
+Welcome to my repository of computer vision projects! This collection showcases various techniques and applications of computer vision using OpenCV and other relevant libraries. Below are the details of each project included in this repository.
 
-**Artificial Intelligence (AI) :**
+## Project 1: Moving Object Detection using OpenCV
 
-* Father of AI - John McCarthy, Alan Turing 
-* Father of Indian AI - Raj Reddy
-* AI is a branch of Computer Science that deals with the automation of intelligent behaviour.
-* These are the systems that can think like humans,act like humans, think rationally and act rationally.
-* In AI we develop human like programs using data that is useful to solve real life problems and benefit humankind.
-* In short, AI is all about giving intelligence to machines artificially or buliding intelligent entities.
+### Description
+This project involves detecting moving objects in a video stream using OpenCV. The technique is based on frame differencing and background subtraction to identify changes in the scene. The program captures the first frame and compares it with subsequent frames to detect motion.
 
+### Features
+- Frame differencing
+- Background subtraction
+- Contour detection
+- Real-time motion detection
 
-**Steps for building AI Models :**
+### Requirements
+- OpenCV
+- NumPy
+- imutils
 
-* Data Collection / Gathering Data
-* Data Cleaning / Preprocessing
-* Choose a model/concept - find what algorithms we r gonna use in ML, DL, NLP, CV etc...
-* Model Training
-* Model Evaluation
-* Parameter Tuning 
-* Model prediction
+---
 
+## Project 2: Advanced Face Detection and Tracking
 
-**Installing Libraries :**
+### Description
+This project focuses on detecting and tracking faces in real-time using advanced techniques. It uses Haar cascades for face detection and processes a video file to identify and highlight faces in each frame.
 
-    pip install numpy
-    pip install pandas==2.1.1   -> Installing with version
-    pip install opencv-contrib-python
-    pip install imutils
-    pip install pyautogui
-    pip install torch
-    pip install torchvision
-    pip install facial-emotion-recognition
+### Features
+- Face detection using Haar cascades
+- Real-time face tracking in a video file
 
+### Requirements
+- OpenCV
+- Haar cascade XML file
 
-**Version check :**
+---
 
-***eg:***
+## Project 3: Object Detection and Tracking based on Colour
 
-    pandas.__version__
+### Description
+This project involves color calibration using HSV values and object tracking in a video file. The GUI allows the user to adjust the HSV values to filter specific colors and detect objects of that color in real-time.
 
-**Importing Libraries :**
+### Features
+- Color calibration using HSV sliders
+- Object tracking in a video file based on calibrated color
+- Screenshot functionality
 
-***eg:***
-  
-    import cv2
+### Requirements
+- OpenCV
+- NumPy
+- Tkinter
+- PIL
+- imutils
+- pyautogui
 
-**Uninstalling Libraries :**
+---
 
-***eg:***
+## Project 4: Face Recognition with OpenCV
 
-    pip uninstall pandas
+### Description
+This project demonstrates a basic face recognition system using OpenCV. The project is divided into two main parts: data creation and face recognition.
+# Data Creation:
+The data creation script captures 30 images of a person's face and saves them in a specified directory.
+# Face Recognition:
+The face recognition script trains a face recognition model using the collected dataset and then uses the webcam to recognize faces in real-time.
 
-**COMPUTER VISION (CV) :**
+### Features
+- Face detection using Haar cascades
+- Face recognition using LBPH
 
-    CV enables machines to see, understand, and process visual information, such as images and videos. 
+### Requirements
+- OpenCV
+- NumPy
+- OS
 
-    Libraries in CV :
+---
 
-        * opencv
-        * pillow
-        * scikit images
-        * Mahotas
-        * Scipy
+## Project 5: Face Emotion Recognition
 
+### Description
+This project demonstrates how to recognize emotions from facial expressions using the `facial_emotion_recognition` library. The project includes two main functionalities:
+1. Real-time emotion recognition from a webcam feed.
+2. Emotion recognition from an IP camera stream.
 
-**Syntax in Opencv :**
-
-    Read Image - cv2.imread('Image_Name/path')    # src
-
-    Write Image - cv2.imwrite('Give name and format eg: photo.jpg', src)
-
-    Show Image - cv2.imshow('Give name', src)  
-
-    Convert to grey image - cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
-
-    Resize Image - imutils.resize(src, width=500)
-
-    Gausssian Blur - cv2.GaussianBlur(src, (Kernel), bordertype)
-
-    Threshold - cv2.threshold(src, threshold, max value for threshold, cv2.THRESH_BINARY)[1]
-
-    Drawing Rectangle - cv2.rectangle(img, startpoint, endpoint, color, thickness)
-
-    Text - cv2.putText(src, text, position, font, font_size, color, thickness)
-
-    Finding Contours - cv2.findContours(src.copy(), cv2.RETR_EXTERNAL, CV2.CHAIN_APPROX_SIMPLE)
-
-    Convert to HSV - cv2.cvtColor(src,cv2.COLOR_BGR2HSV)
-
-    Draw Minimum Enclosing Circle - cv2.minEnclosingCircle(countour_Area)
-
-    Drawing Circle - cv2.circle(src, (x,y), int(radius), color, thickness)
+### Features
+- **Real-time Emotion Detection:** Identify and display emotions from live video captured via webcam.
+- **IP Camera Integration:** Stream video from an IP camera and perform emotion recognition.
+- **Emotion Visualization:** Overlay recognized emotions on the video feed for easy interpretation.
+- **Adjustable Video Feed:** Resize and adjust the video feed for better visibility and performance.
+- **Simple Exit Options:** Exit the application using keyboard shortcuts (`Esc` for webcam feed and `q` for IP camera stream).
 
 
+### Requirements
+- OpenCV
+- NumPy
+- Torch
+- Torchvision
+- facial_emotion_recognition
+
+---
+
+### Prerequisites
+Ensure you have Python and pip installed on your system. You need to install the required libraries.
 
 
 
-**Haar Cascade FrontalFace Algorithm :**
 
-* It is based on the HAAR WAVELET TECHNIQUE to ANALYZE PIXELS in the image INTO SQUARES by function.
-* It uses ML techniques to get degree of ACCURACY.
-* This uses "integral image" concepts to compute the "FEATURES" detected.
-* Haar Cascade use the ADABOOST LEARNING ALGORITHM which selects SMALL NUMBER OF IMPORTANT FEATURES FROM A LARGE SET 
-to give an efficient result of classifiers.
-
-
-**Fisherface Recognizer :**
-
-* Fisherface algorithm extracts PRINCIPLE COMPONENTS that separates one individual from another.
-* So, an individual's features cant dominate another person's features.
-* Fisherface method will be applied to generate FEATURE VECTOR of facial image data used by the system and then to 
-match vector of traits of training image with vector characteristic of test image using EUCLIDEAN DISTANCE FORMULA.
+Feel free to explore each project and provide feedback. Contributions are welcome!😊
