@@ -38,7 +38,7 @@
 
 **Version check :**
 
-    pandas._version_
+    pandas.__version__
 
 **Importing Libraries :**
    
