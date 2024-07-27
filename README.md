@@ -41,8 +41,7 @@
    pandas._version_
 
 **Importing Libraries :**
-
-   import pandas
+   
    import cv2
 
 **Uninstalling Libraries :**
