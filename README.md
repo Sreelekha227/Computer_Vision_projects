@@ -26,7 +26,7 @@
 
 **Installing Libraries :**
 
->>> pip install numpy
+>> pip install numpy
 >>> pip install pandas==2.1.1   -> Installing with version
 >>> pip install opencv-contrib-python
 >>> pip install imutils
