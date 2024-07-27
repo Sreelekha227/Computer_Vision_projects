@@ -26,33 +26,33 @@
 
 **Installing Libraries :**
 
->> pip install numpy
->>> pip install pandas==2.1.1   -> Installing with version
->>> pip install opencv-contrib-python
->>> pip install imutils
->>> pip install pyautogui
->>> pip install torch
->>> pip install torchvision
->>> pip install facial-emotion-recognition
+ pip install numpy
+ pip install pandas==2.1.1   -> Installing with version
+ pip install opencv-contrib-python
+ pip install imutils
+ pip install pyautogui
+ pip install torch
+ pip install torchvision
+ pip install facial-emotion-recognition
 
 
 ***Version check :***
 
 eg:
->>> pandas.__version__
+ pandas.__version__
 
 
 ***Importing Libraries :***
 
 eg:
->>> import pandas
->>> import cv2
+ import pandas
+ import cv2
 
 
 ***Uninstalling Libraries :***
 
 eg:
->>> pip uninstall pandas
+ pip uninstall pandas
 
 
 **COMPUTER VISION (CV) :**
