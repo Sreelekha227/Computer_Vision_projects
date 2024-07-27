@@ -38,15 +38,15 @@
 
 **Version check :**
 
-   pandas._version_
+    pandas._version_
 
 **Importing Libraries :**
    
-   import cv2
+    import cv2
 
 **Uninstalling Libraries :**
 
-   pip uninstall pandas
+    pip uninstall pandas
 
 **COMPUTER VISION (CV) :**
 
