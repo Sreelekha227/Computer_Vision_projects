@@ -60,9 +60,9 @@ This project involves color calibration using HSV values and object tracking in 
 
 ### Description
 This project demonstrates a basic face recognition system using OpenCV. The project is divided into two main parts: data creation and face recognition.
-# Data Creation:
+#### Data Creation:
 The data creation script captures 30 images of a person's face and saves them in a specified directory.
-# Face Recognition:
+#### Face Recognition:
 The face recognition script trains a face recognition model using the collected dataset and then uses the webcam to recognize faces in real-time.
 
 ### Features
@@ -103,7 +103,6 @@ This project demonstrates how to recognize emotions from facial expressions usin
 ### Prerequisites
 Ensure you have Python and pip installed on your system. You need to install the required libraries.
 
-
-
+---
 
 Feel free to explore each project and provide feedback. Contributions are welcome!😊
