@@ -36,16 +36,16 @@
     pip install facial-emotion-recognition
 
 
-***Version check :***
+**Version check :**
 
    pandas._version_
 
-***Importing Libraries :***
+**Importing Libraries :**
 
    import pandas
    import cv2
 
-***Uninstalling Libraries :***
+**Uninstalling Libraries :**
 
    pip uninstall pandas
 
