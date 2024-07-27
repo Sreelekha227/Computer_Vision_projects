@@ -43,11 +43,13 @@
     pandas.__version__
 
 **Importing Libraries :**
+
 ***eg:***
   
     import cv2
 
 **Uninstalling Libraries :**
+
 ***eg:***
 
     pip uninstall pandas
