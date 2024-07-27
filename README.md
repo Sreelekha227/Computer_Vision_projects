@@ -5,23 +5,23 @@
 
 **Artificial Intelligence (AI) :**
 
-    * Father of AI - John McCarthy, Alan Turing 
-    * Father of Indian AI - Raj Reddy
-    * AI is a branch of Computer Science that deals with the automation of intelligent behaviour.
-    * These are the systems that can think like humans,act like humans, think rationally and act rationally.
-    * In AI we develop human like programs using data that is useful to solve real life problems and benefit humankind.
-    * In short, AI is all about giving intelligence to machines artificially or buliding intelligent entities.
+* Father of AI - John McCarthy, Alan Turing 
+* Father of Indian AI - Raj Reddy
+* AI is a branch of Computer Science that deals with the automation of intelligent behaviour.
+* These are the systems that can think like humans,act like humans, think rationally and act rationally.
+* In AI we develop human like programs using data that is useful to solve real life problems and benefit humankind.
+* In short, AI is all about giving intelligence to machines artificially or buliding intelligent entities.
 
 
 **Steps for building AI Models :**
 
-    * Data Collection / Gathering Data
-    * Data Cleaning / Preprocessing
-    * Choose a model/concept - find what algorithms we r gonna use in ML, DL, NLP, CV etc...
-    * Model Training
-    * Model Evaluation
-    * Parameter Tuning 
-    * Model prediction
+* Data Collection / Gathering Data
+* Data Cleaning / Preprocessing
+* Choose a model/concept - find what algorithms we r gonna use in ML, DL, NLP, CV etc...
+* Model Training
+* Model Evaluation
+* Parameter Tuning 
+* Model prediction
 
 
 **Installing Libraries :**
